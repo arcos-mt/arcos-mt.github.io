@@ -183,21 +183,21 @@
    */
   new Swiper(".testimonials-slider", {
     speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
+    loop: false,
     slidesPerView: 2,
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
     breakpoints: {
       576: {
         slidesPerView: 1,
         spaceBetween: 20,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
       },
 
       1200: {
