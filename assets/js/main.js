@@ -188,20 +188,20 @@
       delay: 5000,
       disableOnInteraction: false,
     },
-    slidesPerView: "auto",
+    slidesPerView: 2,
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",
       clickable: true,
     },
     breakpoints: {
-      320: {
+      576: {
         slidesPerView: 1,
         spaceBetween: 20,
       },
 
       1200: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
     },

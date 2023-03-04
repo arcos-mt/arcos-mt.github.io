@@ -889,8 +889,8 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  /* width: 12px;
+  height: 12px; */
   background-color: #fff;
   opacity: 1;
   border: 1px solid #2487ce;
