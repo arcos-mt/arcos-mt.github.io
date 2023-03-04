@@ -184,9 +184,9 @@
   new Swiper(".testimonials-slider", {
     speed: 600,
     loop: false,
-    slidesPerView: 2,
+    slidesPerView: 1,
     breakpoints: {
-      576: {
+      320: {
         slidesPerView: 1,
         spaceBetween: 20,
         autoplay: {
